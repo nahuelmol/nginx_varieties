@@ -1,0 +1,109 @@
+2021/02/27 17:24:59 [emerg] 1268#6024: CreateDirectory() "D:\nginx\nginx-projects\nginx-laravel/temp/client_body_temp" failed (3: El sistema no puede encontrar la ruta especificada)
+2021/02/27 17:27:42 [error] 1448#2748: *1 CreateFile() "D:/nginx/nginx-projects/nginx-laravel/favicon.ico" failed (2: El sistema no puede encontrar el archivo especificado), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2021/02/27 17:29:54 [notice] 5712#3324: signal process started
+2021/02/27 17:30:42 [error] 3608#4520: *1 directory index of "D:/nginx/nginx-projects/nginx-laravel/images/" is forbidden, client: 127.0.0.1, server: , request: "GET /images/ HTTP/1.1", host: "localhost:8080"
+2021/02/27 17:37:10 [error] 3608#4520: *4 CreateFile() "D:/nginx/nginx-projects/nginx-laravel/favicon.ico" failed (2: El sistema no puede encontrar el archivo especificado), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/images/index.png"
+2021/02/27 17:38:08 [notice] 2304#5088: signal process started
+2021/02/27 17:40:04 [error] 5116#4956: *1 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "localhost:8888"
+2021/02/27 17:40:05 [error] 5116#4956: *6 CreateFile() "D:/nginx/nginx-projects/nginx-laravel/favicon.ico" failed (2: El sistema no puede encontrar el archivo especificado), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.0", host: "localhost:8080", referrer: "http://localhost:8888/"
+2021/02/27 17:40:44 [emerg] 1640#444: "proxy_pass" directive is duplicate in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:16
+2021/02/27 17:41:00 [notice] 3784#2768: signal process started
+2021/02/27 17:41:16 [error] 3076#2376: *1 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://[::1]:8000/", host: "localhost:8888"
+2021/02/27 17:42:03 [notice] 1896#1152: signal process started
+2021/02/27 17:43:11 [error] 5008#3284: *1 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "https://[::1]:8000/", host: "localhost:8888"
+2021/02/27 17:43:11 [error] 5008#3284: *1 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8000/", host: "localhost:8888"
+2021/02/27 17:43:48 [notice] 3096#2708: signal process started
+2021/02/27 17:44:21 [error] 2468#5968: *1 "D:\nginx\nginx-projects\nginx-laravel/html/index.html" is not found (3: El sistema no puede encontrar la ruta especificada), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8888"
+2021/02/27 17:44:31 [error] 2468#5968: *1 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /lara HTTP/1.1", upstream: "https://[::1]:8000/", host: "localhost:8888"
+2021/02/27 17:44:31 [error] 2468#5968: *1 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 127.0.0.1, server: , request: "GET /lara HTTP/1.1", upstream: "https://127.0.0.1:8000/", host: "localhost:8888"
+2021/02/27 17:44:37 [error] 2468#5968: *1 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /native HTTP/1.1", upstream: "https://[::1]:8080/", host: "localhost:8888"
+2021/02/27 17:44:37 [error] 2468#5968: *1 SSL_do_handshake() failed (SSL: error:1408F10B:SSL routines:ssl3_get_record:wrong version number) while SSL handshaking to upstream, client: 127.0.0.1, server: , request: "GET /native HTTP/1.1", upstream: "https://127.0.0.1:8080/", host: "localhost:8888"
+2021/02/27 17:45:05 [notice] 468#5372: signal process started
+2021/02/27 17:45:36 [error] 4756#4344: *1 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /native HTTP/1.1", upstream: "https://[::1]:8080/native", host: "localhost:8888"
+2021/02/27 17:45:36 [error] 4756#4344: *1 SSL_do_handshake() failed (SSL: error:1408F10B:SSL routines:ssl3_get_record:wrong version number) while SSL handshaking to upstream, client: 127.0.0.1, server: , request: "GET /native HTTP/1.1", upstream: "https://127.0.0.1:8080/native", host: "localhost:8888"
+2021/02/27 17:45:41 [notice] 5604#3144: signal process started
+2021/02/27 17:46:10 [error] 4364#3540: *1 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /native HTTP/1.1", upstream: "https://[::1]:8080/native", host: "localhost:8888"
+2021/02/27 17:46:10 [error] 4364#3540: *1 SSL_do_handshake() failed (SSL: error:1408F10B:SSL routines:ssl3_get_record:wrong version number) while SSL handshaking to upstream, client: 127.0.0.1, server: , request: "GET /native HTTP/1.1", upstream: "https://127.0.0.1:8080/native", host: "localhost:8888"
+2021/02/27 17:46:28 [error] 4364#3540: *1 SSL_do_handshake() failed (SSL: error:1408F10B:SSL routines:ssl3_get_record:wrong version number) while SSL handshaking to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8080/", host: "localhost:8888"
+2021/02/27 17:46:29 [error] 4364#3540: *1 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "https://[::1]:8080/", host: "localhost:8888"
+2021/02/27 17:46:36 [notice] 5948#3076: signal process started
+2021/02/27 17:47:01 [error] 468#3948: *1 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "localhost:8888"
+2021/02/27 17:47:05 [notice] 2488#2572: signal process started
+2021/02/27 17:47:45 [error] 4716#6140: *1 "D:\nginx\nginx-projects\nginx-laravel/html/index.html" is not found (3: El sistema no puede encontrar la ruta especificada), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8888"
+2021/02/27 17:47:59 [error] 4716#6140: *1 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /native HTTP/1.1", upstream: "http://[::1]:8080/", host: "localhost:8888"
+2021/02/27 17:48:05 [error] 4716#6140: *1 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /lara HTTP/1.1", upstream: "http://[::1]:8000/", host: "localhost:8888"
+2021/02/27 17:51:14 [emerg] 5104#6024: unknown directive "hostname" in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:14
+2021/02/27 17:51:34 [emerg] 3084#4828: unknown directive "host" in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:14
+2021/02/27 17:53:21 [notice] 4696#5772: signal process started
+2021/02/27 17:53:56 [error] 3456#4968: *1 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 192.168.0.105, server: 192.168.0.195, request: "GET /lara HTTP/1.1", upstream: "http://[::1]:8000/", host: "192.168.0.105:8888"
+2021/02/27 17:54:42 [error] 3456#4968: *4 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 192.168.0.105, server: 192.168.0.195, request: "GET /native HTTP/1.1", upstream: "http://[::1]:8080/", host: "192.168.0.105:8888"
+2021/02/27 17:54:44 [error] 3456#4968: *4 CreateFile() "D:\nginx\nginx-projects\nginx-laravel/html/favicon.ico" failed (3: El sistema no puede encontrar la ruta especificada), client: 192.168.0.105, server: 192.168.0.195, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.105:8888", referrer: "http://192.168.0.105:8888/native"
+2021/02/27 17:55:28 [warn] 5292#2068: server name "http://192.168.0.195" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:14
+2021/02/27 17:55:28 [notice] 5292#2068: signal process started
+2021/02/27 17:56:33 [warn] 2676#1224: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:14
+2021/02/27 17:56:33 [notice] 2676#1224: signal process started
+2021/02/27 17:56:33 [error] 2676#1224: CreateFile() "D:\nginx\nginx-projects\nginx-laravel/logs/nginx.pid" failed (2: El sistema no puede encontrar el archivo especificado)
+2021/02/27 17:56:50 [warn] 2316#4280: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:14
+2021/02/27 17:56:51 [warn] 5904#3532: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:14
+2021/02/27 17:57:03 [error] 5904#2684: *1 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 192.168.0.105, server: http://192.168.0.105, request: "GET /native HTTP/1.1", upstream: "http://[::1]:8080/", host: "192.168.0.105:8888"
+2021/02/27 17:57:04 [error] 5904#2684: *1 CreateFile() "D:\nginx\nginx-projects\nginx-laravel/html/favicon.ico" failed (3: El sistema no puede encontrar la ruta especificada), client: 192.168.0.105, server: http://192.168.0.105, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.105:8888", referrer: "http://192.168.0.105:8888/native"
+2021/02/27 17:57:07 [error] 5904#2684: *5 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 192.168.0.105, server: http://192.168.0.105, request: "GET /lara HTTP/1.1", upstream: "http://[::1]:8000/", host: "192.168.0.105:8888"
+2021/02/27 18:02:11 [warn] 4356#4240: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:21
+2021/02/27 18:02:11 [emerg] 4356#4240: "proxy_pass" directive is not allowed here in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:36
+2021/02/27 18:02:35 [warn] 4840#2456: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:21
+2021/02/27 18:02:35 [emerg] 4840#2456: host not found in upstream "albackend" in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:37
+2021/02/27 18:02:58 [warn] 824#3456: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:21
+2021/02/27 18:02:58 [notice] 824#3456: signal process started
+2021/02/27 18:03:03 [warn] 1168#2424: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:21
+2021/02/27 18:03:05 [warn] 4244#4532: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:21
+2021/02/27 18:16:04 [warn] 4840#4240: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:36
+2021/02/27 18:16:04 [notice] 4840#4240: signal process started
+2021/02/27 18:17:24 [warn] 5668#5340: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:36
+2021/02/27 18:17:25 [warn] 3532#6044: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:36
+2021/02/27 18:17:36 [error] 3532#4456: *3 CreateFile() "D:/nginx/nginx-projects/nginx-laravel/allbackend" failed (2: El sistema no puede encontrar el archivo especificado), client: 127.0.0.1, server: , request: "GET /allbackend HTTP/1.0", host: "allbackend"
+2021/02/27 18:19:35 [error] 3532#4456: *9 CreateFile() "D:/nginx/nginx-projects/nginx-laravel/sites/site2/favicon.ico" failed (2: El sistema no puede encontrar el archivo especificado), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.0", host: "allbackend", referrer: "http://localhost/allbackend"
+2021/02/27 18:20:08 [warn] 3816#2312: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:36
+2021/02/27 18:20:08 [notice] 3816#2312: signal process started
+2021/02/27 18:20:18 [warn] 4696#1012: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:36
+2021/02/27 18:20:19 [warn] 2568#5160: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:36
+2021/02/27 18:20:24 [error] 2568#4800: *3 "D:/nginx/nginx-projects/nginx-laravel/allbackend/index.html" is not found (3: El sistema no puede encontrar la ruta especificada), client: 127.0.0.1, server: , request: "GET /allbackend/ HTTP/1.0", host: "allbackend"
+2021/02/27 18:20:34 [error] 2568#4800: *6 "D:/nginx/nginx-projects/nginx-laravel/sites/site2/allbackend/index.html" is not found (3: El sistema no puede encontrar la ruta especificada), client: 127.0.0.1, server: , request: "GET /allbackend/ HTTP/1.0", host: "allbackend"
+2021/02/27 18:21:39 [warn] 5664#4240: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:36
+2021/02/27 18:21:39 [notice] 5664#4240: signal process started
+2021/02/27 18:21:48 [warn] 1896#3108: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:36
+2021/02/27 18:21:49 [warn] 3144#1740: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:36
+2021/02/27 18:21:59 [error] 3144#2548: *3 CreateFile() "D:/nginx/nginx-projects/nginx-laravel/allbackend" failed (2: El sistema no puede encontrar el archivo especificado), client: 127.0.0.1, server: , request: "GET /allbackend HTTP/1.0", host: "allbackend"
+2021/02/27 18:22:44 [error] 3144#2548: *5 "D:\nginx\nginx-projects\nginx-laravel/html/index.html" is not found (3: El sistema no puede encontrar la ruta especificada), client: 192.168.0.105, server: http://192.168.0.105, request: "GET / HTTP/1.1", host: "192.168.0.105:8888"
+2021/02/27 18:22:50 [error] 3144#2548: *5 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 192.168.0.105, server: http://192.168.0.105, request: "GET /lara HTTP/1.1", upstream: "http://[::1]:8000/", host: "192.168.0.105:8888"
+2021/02/27 18:22:58 [error] 3144#2548: *5 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 192.168.0.105, server: http://192.168.0.105, request: "GET /native HTTP/1.1", upstream: "http://[::1]:8080/", host: "192.168.0.105:8888"
+2021/02/27 18:23:07 [error] 3144#2548: *5 CreateFile() "D:\nginx\nginx-projects\nginx-laravel/html/sites/site2" failed (3: El sistema no puede encontrar la ruta especificada), client: 192.168.0.105, server: http://192.168.0.105, request: "GET /sites/site2 HTTP/1.1", host: "192.168.0.105:8888"
+2021/02/27 18:23:49 [warn] 5036#2768: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:36
+2021/02/27 18:23:49 [notice] 5036#2768: signal process started
+2021/02/27 18:23:58 [warn] 2616#4404: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:36
+2021/02/27 18:23:59 [warn] 4716#1640: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:36
+2021/02/27 18:24:19 [error] 4716#3540: *4 CreateFile() "D:/nginx/nginx-projects/nginx-laravel/allbackend" failed (2: El sistema no puede encontrar el archivo especificado), client: 127.0.0.1, server: , request: "GET /allbackend HTTP/1.0", host: "allbackend"
+2021/02/27 18:27:05 [warn] 4788#5000: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:48
+2021/02/27 18:27:05 [notice] 4788#5000: signal process started
+2021/02/27 18:27:09 [warn] 4636#3452: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:48
+2021/02/27 18:27:11 [warn] 4624#2424: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:48
+2021/02/27 18:27:17 [error] 4624#3056: *3 CreateFile() "D:/nginx/nginx-projects/nginx-laravel/allbackend" failed (2: El sistema no puede encontrar el archivo especificado), client: 127.0.0.1, server: , request: "GET /allbackend HTTP/1.0", host: "allbackend"
+2021/02/27 18:28:18 [error] 4624#3056: *4 CreateFile() "D:/nginx/nginx-projects/nginx-laravel/sites/site2/favicon.ico" failed (2: El sistema no puede encontrar el archivo especificado), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:2222", referrer: "http://localhost:2222/"
+2021/02/27 18:29:21 [warn] 3608#3828: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:47
+2021/02/27 18:29:21 [notice] 3608#3828: signal process started
+2021/02/27 18:29:24 [warn] 5340#3532: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:47
+2021/02/27 18:29:25 [warn] 4048#4304: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:47
+2021/02/27 18:30:10 [error] 4048#4020: *5 "D:/nginx/nginx-projects/nginx-laravel/sites/site2/allbackend/index.html" is not found (3: El sistema no puede encontrar la ruta especificada), client: 127.0.0.1, server: , request: "GET /allbackend/ HTTP/1.0", host: "allbackend"
+2021/02/27 18:31:00 [warn] 3144#3656: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:47
+2021/02/27 18:31:00 [notice] 3144#3656: signal process started
+2021/02/27 18:31:33 [warn] 2216#3540: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:48
+2021/02/27 18:31:34 [warn] 5240#1828: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:48
+2021/02/27 18:44:35 [warn] 7000#7004: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:48
+2021/02/27 18:44:35 [notice] 7000#7004: signal process started
+2021/02/27 18:45:58 [warn] 7328#7332: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:54
+2021/02/27 18:45:59 [warn] 7356#7360: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:54
+2021/02/27 18:47:49 [warn] 7996#8000: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:54
+2021/02/27 18:47:49 [notice] 7996#8000: signal process started
+2021/02/27 18:48:14 [warn] 4312#1168: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:54
+2021/02/27 18:48:14 [warn] 4312#1168: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:69
+2021/02/27 18:48:15 [warn] 6172#6168: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:54
+2021/02/27 18:48:15 [warn] 6172#6168: server name "http://192.168.0.105" has suspicious symbols in D:\nginx\nginx-projects\nginx-laravel/conf/nginx.conf:69
